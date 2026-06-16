@@ -1,4 +1,4 @@
-# @jellyfish/v2-localized-slugs
+# @pkrakas/v2-localized-slugs
 
 Medusa v2 plugin that adds **per-locale URL slugs** for products. Store each product's slug per locale (e.g. `en-US` → `bosch-cordless-drill`, `lt-LT` → `akumuliatorinis-suktuvas-bosch`) and resolve products by slug on the storefront.
 
@@ -24,7 +24,7 @@ Works alongside Medusa's [Translation module](https://docs.medusajs.com/resource
 ### 1. Add the plugin to your Medusa backend
 
 ```bash
-npm install @jellyfish/v2-localized-slugs
+npm install @pkrakas/v2-localized-slugs
 ```
 
 ### 2. Register in `medusa-config.ts`
@@ -40,7 +40,7 @@ module.exports = defineConfig({
   ],
   plugins: [
     {
-      resolve: "@jellyfish/v2-localized-slugs",
+      resolve: "@pkrakas/v2-localized-slugs",
       options: {},
     },
   ],
@@ -77,6 +77,9 @@ Under **Settings → Translations**, add the locales your store supports. The ad
 - Unique `(locale, slug)` — no duplicate slugs within a locale
 
 ## Admin UI
+
+![Admin UI 1](/screenshots/admin-ui-1?raw=true "Admin UI Screenshot 1")
+![Admin UI 2](/screenshots/admin-ui-2?raw=true "Admin UI Screenshot 2")
 
 A **Slugs** widget appears on the product detail page (`product.details.before` zone). It:
 
