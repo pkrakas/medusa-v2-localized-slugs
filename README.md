@@ -78,7 +78,7 @@ Under **Settings → Translations**, add the locales your store supports. The ad
 
 ## Admin UI
 
-![Admin UI 1](/https://github.com/pkrakas/medusa-v2-localized-slugs/raw/main/screenshots/admin-ui-1.jpg?raw=true "Admin UI Screenshot 1")
+![Admin UI 1](https://github.com/pkrakas/medusa-v2-localized-slugs/raw/main/screenshots/admin-ui-1.jpg?raw=true "Admin UI Screenshot 1")
 ![Admin UI 2](https://github.com/pkrakas/medusa-v2-localized-slugs/raw/main/screenshots/admin-ui-2.jpg?raw=true "Admin UI Screenshot 2")
 
 A **Slugs** widget appears on the product detail page (`product.details.before` zone). It:
