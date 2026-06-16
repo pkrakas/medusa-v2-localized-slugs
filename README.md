@@ -1,4 +1,4 @@
-# @pkrakas/v2-localized-slugs
+# @pkrakas/medusa-v2-localized-slugs
 
 Medusa v2 plugin that adds **per-locale URL slugs** for products. Store each product's slug per locale (e.g. `en-US` → `bosch-cordless-drill`, `lt-LT` → `akumuliatorinis-suktuvas-bosch`) and resolve products by slug on the storefront.
 
@@ -24,7 +24,7 @@ Works alongside Medusa's [Translation module](https://docs.medusajs.com/resource
 ### 1. Add the plugin to your Medusa backend
 
 ```bash
-npm install @pkrakas/v2-localized-slugs
+npm install @pkrakas/medusa-v2-localized-slugs
 ```
 
 ### 2. Register in `medusa-config.ts`
@@ -40,7 +40,7 @@ module.exports = defineConfig({
   ],
   plugins: [
     {
-      resolve: "@pkrakas/v2-localized-slugs",
+      resolve: "@pkrakas/medusa-v2-localized-slugs",
       options: {},
     },
   ],
