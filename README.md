@@ -78,8 +78,8 @@ Under **Settings → Translations**, add the locales your store supports. The ad
 
 ## Admin UI
 
-![Admin UI 1](/screenshots/admin-ui-1?raw=true "Admin UI Screenshot 1")
-![Admin UI 2](/screenshots/admin-ui-2?raw=true "Admin UI Screenshot 2")
+![Admin UI 1](/screenshots/admin-ui-1.jpg?raw=true "Admin UI Screenshot 1")
+![Admin UI 2](/screenshots/admin-ui-2.jpg?raw=true "Admin UI Screenshot 2")
 
 A **Slugs** widget appears on the product detail page (`product.details.before` zone). It:
 
