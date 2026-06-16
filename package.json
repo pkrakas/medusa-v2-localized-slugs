@@ -4,6 +4,10 @@
   "description": "Medusa's v2 plugin which adds localized slugs support.",
   "author": "pkrakas",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkrakas/medusa-v2-localized-slugs"
+  },
   "files": [
     ".medusa/server",
     "README.md"
