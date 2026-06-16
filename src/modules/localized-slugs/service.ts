@@ -30,6 +30,7 @@ class LocalizedSlugsService extends MedusaService({
         for (const item of data) {
             const key = `${item.product_id}:${item.locale}`
             const found = byKey.get(key)
+            item.slug = item.slug.trim()
 
             if (item.slug === "") {
                 if (found) {
