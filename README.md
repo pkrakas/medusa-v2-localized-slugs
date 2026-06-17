@@ -1,6 +1,6 @@
 # @pkrakas/medusa-v2-localized-slugs
 
-Medusa v2 plugin that adds **per-locale URL slugs** for products. Store each product's slug per locale (e.g. `en-US` → `bosch-cordless-drill`, `lt-LT` → `akumuliatorinis-suktuvas-bosch`) and resolve products by slug on the storefront.
+Medusa v2 plugin that adds **per-locale URL slugs** for products. Store each product's slug per locale (e.g. `en-US` → `cordless-drill-yz500`, `lt-LT` → `akumuliatorinis-suktuvas-yz500`) and resolve products by slug on the storefront.
 
 Works alongside Medusa's [Translation module](https://docs.medusajs.com/resources/commerce-modules/translation) for translated product content.
 
@@ -102,8 +102,8 @@ Content-Type: application/json
 
 ```json
 [
-  { "locale": "en-US", "slug": "bosch-cordless-drill" },
-  { "locale": "lt-LT", "slug": "akumuliatorinis-suktuvas-bosch" },
+  { "locale": "en-US", "slug": "cordless-drill-yz500" },
+  { "locale": "lt-LT", "slug": "akumuliatorinis-suktuvas-yz500" },
   { "locale": "pl-PL", "slug": "" }
 ]
 ```

@@ -1,6 +1,6 @@
 {
   "name": "@pkrakas/medusa-v2-localized-slugs",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Medusa's v2 plugin which adds localized slugs support.",
   "author": "pkrakas",
   "license": "MIT",
